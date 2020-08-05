@@ -1,6 +1,6 @@
 import re
 
-from xbrief import rn, tb
+from src.xbrief import rn, tb
 
 
 def wl(m):

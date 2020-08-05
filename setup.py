@@ -1,6 +1,6 @@
 import setuptools
 
-__root__ = 'lib'
+__root__ = 'src'
 __name__ = 'xbrief'
 __keywords__ = ["console", "print", "test"]
 
@@ -30,7 +30,7 @@ setuptools.setup(
     url="https://github.com/hoyeungw/",
     install_requires=read_install_requires(),
     package_dir={'': __root__},
-    packages=setuptools.find_packages(where=__root__),  # , include=including(__name__)
+    packages=setuptools.find_packages(where=__root__, include=including(__name__)),
     keywords=__keywords__,
     classifiers=[
         "Programming Language :: Python :: 3",

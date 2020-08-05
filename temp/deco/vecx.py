@@ -1,6 +1,6 @@
 import math
 
-from src.xbrief import Preci
+from utils import Preci
 
 
 def vbrief(arr: list,

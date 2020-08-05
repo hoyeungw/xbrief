@@ -1,4 +1,4 @@
-from xbrief import strx, Preci, aeu, rn
+from src.xbrief import strx, Preci, aeu, rn
 
 
 def hbrief(lex: dict,

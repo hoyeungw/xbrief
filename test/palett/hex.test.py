@@ -1,3 +1,6 @@
+from palett.convert import hex_int
+
+
 def test():
     hex_candidates = {
         'black': '#000',

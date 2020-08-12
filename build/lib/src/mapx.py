@@ -11,7 +11,7 @@ def hbrief(lex: dict,
     else:
         actual_abstract = lambda kv: f'{kv[0]}:({kv[1]})'
     preci = Preci \
-        .from_arr(list(lex.items()), head, tail) \
+        .iso(list(lex.items()), head, tail) \
         .map(actual_abstract)
     elements = preci.to_list('...')
     if elements:
@@ -29,7 +29,7 @@ def vbrief(lex: dict,
     else:
         actual_abstract = lambda kv: (f'{kv[0]}', f'{kv[1]}')
     preci = Preci \
-        .from_arr(list(lex.items()), head, tail) \
+        .iso(list(lex.items()), head, tail) \
         .map(actual_abstract)
     length = max(preci.map(lambda kv: len(kv[0])).to_list())
     # f'{kvp[0]: <{length}}', kvp[1]

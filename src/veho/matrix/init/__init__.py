@@ -3,4 +3,5 @@ def init(h, w, func):
 
 
 def iso(h, w, val):
-    return [[val for _ in range(w)] for _ in range(h)]
+    return [[val] * w for _ in range(h)]
+    # return [[val for _ in range(w)] for _ in range(h)]

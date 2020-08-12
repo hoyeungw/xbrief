@@ -7,7 +7,7 @@ def vbrief(arr: list,
            abstract=None,
            head: int = None,
            tail: int = None):
-    preci = Preci.from_arr(arr, head, tail).map(abstract).stringify()
+    preci = Preci.iso(arr, head, tail).map(abstract).stringify()
     elements = preci \
         .ject_head(tags_indexed) \
         .ject_tail(lambda ar: tags_indexed(ar, len(arr) - tail)) \
@@ -23,7 +23,7 @@ def hbrief(arr: list,
            abstract=None,
            head: int = None,
            tail: int = None):
-    preci = Preci.from_arr(arr, head, tail).map(abstract)
+    preci = Preci.iso(arr, head, tail).map(abstract)
     elements = preci.to_list('...')
     if elements:
         return delimiter.join(elements)

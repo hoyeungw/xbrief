@@ -1,4 +1,4 @@
-from palett.convert import hex_int
+from palett.convert.hex_int import hex_int
 
 '''
 @param {string} hex

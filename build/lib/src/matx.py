@@ -11,8 +11,8 @@ def xbrief(matrix,
         rowwise_abstract = lambda row: [f'{abstract(x)}' for x in row]
     else:
         rowwise_abstract = lambda row: [f'{x}' for x in row]
-    rows_preci = Preci.from_arr(matrix, rows_head, rows_tail) \
-        .map(lambda row: Preci.from_arr(row, columns_head, columns_tail).to_list('...')) \
+    rows_preci = Preci.iso(matrix, rows_head, rows_tail) \
+        .map(lambda row: Preci.iso(row, columns_head, columns_tail).to_list('...')) \
         .map(rowwise_abstract)
     col_indexes = [i for i, v in enumerate(rows_preci.to_list()[0])]
     row_list = rows_preci.to_list(['..' for _ in col_indexes])

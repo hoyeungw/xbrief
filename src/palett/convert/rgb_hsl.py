@@ -11,7 +11,8 @@ TH = 1000
 '''
 
 
-def rgb_hsl(r, g, b):
+def rgb_hsl(rgb):
+    r, g, b = rgb
     r /= 255
     g /= 255
     b /= 255

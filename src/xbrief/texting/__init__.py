@@ -1,4 +1,6 @@
-from .padder import pad_start, pad_end, pad_centered
-from .indexing import index_nontab, after_nontab
+from .has_ansi import has_ansi, has_astral, has_han
+from .indexing import after_nontab, index_nontab
+from .lange import lange
+from .padder import pad_centered, pad_end, pad_start
 from .str_util import StrTemp
 from .tap import link, tag, tags

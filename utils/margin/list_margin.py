@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 from utils.margin.sizing import sizing
-from veho.list import margin_mapper, margin_mutate
+from veho.vector import margin_mapper, margin_mutate
 
 
 @dataclass

@@ -1,1 +1,0 @@
-from .isnumeral import isnumeral

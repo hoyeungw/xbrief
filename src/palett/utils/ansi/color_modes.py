@@ -1,4 +1,0 @@
-FORE = '38;2'
-BACK = '48;2'
-CLR_FORE = '39'
-CLR_BACK = '49'

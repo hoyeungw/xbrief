@@ -1,4 +1,4 @@
-from src.xbrief.texting import tags
+from texting import tags
 
 
 def wl(m):

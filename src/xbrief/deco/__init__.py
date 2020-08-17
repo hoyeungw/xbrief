@@ -1,1 +1,1 @@
-from .deco_vector import deco_list
+from .deco_vector import deco_vector

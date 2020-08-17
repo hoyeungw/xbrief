@@ -1,1 +1,2 @@
-from .listCollection import listCollection
+from .entries_collection import entries_collection
+from .vector_collection import vector_collection

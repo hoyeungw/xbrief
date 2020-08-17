@@ -1,0 +1,89 @@
+[[package]]
+category = "main"
+description = "numerical & statistics functions"
+name = "aryth"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "0.0.5"
+
+[package.dependencies]
+intype = ">=0.0.2"
+texting = ">=0.0.2"
+veho = ">=0.0.4"
+
+[[package]]
+category = "main"
+description = "dynamic type infer"
+name = "intype"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "0.0.2"
+
+[[package]]
+category = "main"
+description = "function/lambda extensions"
+name = "ject"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "0.0.1"
+
+[[package]]
+category = "main"
+description = "pretty text for command line"
+name = "palett"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "0.0.4"
+
+[package.dependencies]
+aryth = ">=0.0.5"
+intype = ">=0.0.2"
+ject = ">=0.0.1"
+veho = ">=0.0.4"
+
+[[package]]
+category = "main"
+description = "misc for string"
+name = "texting"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "0.0.3"
+
+[[package]]
+category = "main"
+description = "easy enumerate"
+name = "veho"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "0.0.4"
+
+[metadata]
+content-hash = "8abff0124f223564ab7785c355d3e4fca53678b52f6b54ab67fbc6f13fda4b96"
+lock-version = "1.0"
+python-versions = "^3.8"
+
+[metadata.files]
+aryth = [
+    {file = "aryth-0.0.5-py3-none-any.whl", hash = "sha256:db5d9a2bb0811a006b0ab06e8c7dc424cb68adb28489914e6b4321e587d764e5"},
+    {file = "aryth-0.0.5.tar.gz", hash = "sha256:c17f7ee043671b33021da5c7f4a94aaf0305b699d2f2dcd40e34888a4328cbf0"},
+]
+intype = [
+    {file = "intype-0.0.2-py3-none-any.whl", hash = "sha256:d4ff07381080cda7b56ebd9757a8e77ecfd1bdf8df386ca521b595b06bc98fe9"},
+    {file = "intype-0.0.2.tar.gz", hash = "sha256:696967020ef29fba4c204e822ad568085047f8985a15e47774f9ce10c450b7f4"},
+]
+ject = [
+    {file = "ject-0.0.1-py3-none-any.whl", hash = "sha256:ca46be22d3c13b4ca0ca0c64e60bf90ac0edf00e4eb8e7a47a07271c13b04117"},
+    {file = "ject-0.0.1.tar.gz", hash = "sha256:22a77b46beff4d45e2d833107da7b7fe5289f176920d6c52fcb1c2b7dcf95db3"},
+]
+palett = [
+    {file = "palett-0.0.4-py3-none-any.whl", hash = "sha256:25050e3973aec73d0c952999502dcabd5633d0dd06d61ed507517bb8f064feb3"},
+    {file = "palett-0.0.4.tar.gz", hash = "sha256:3e69195db2f109519b5839dcb0cc11327677f77fc68f6ef45dcbda01d18f7b9c"},
+]
+texting = [
+    {file = "texting-0.0.3-py3-none-any.whl", hash = "sha256:b4b32d43ae01897b9bdd04749ad581c3a27ac9a377c34610abf9f7e884e5748d"},
+    {file = "texting-0.0.3.tar.gz", hash = "sha256:84c39c5c980f09de11c98f7e3ebf5ce3439243678e8fdd6e1210156b9f1463b1"},
+]
+veho = [
+    {file = "veho-0.0.4-py3-none-any.whl", hash = "sha256:44049086198860b91c9f61668448892aea33a00ca569004662637a2459bad500"},
+    {file = "veho-0.0.4.tar.gz", hash = "sha256:f135254264a3180152591f54ab65e0f575fc7a5e04471bd064deb0cdfdb5d389"},
+]

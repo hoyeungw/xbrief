@@ -47,7 +47,7 @@ description = "misc for string"
 name = "texting"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "0.0.3"
+version = "0.0.6"
 
 [[package]]
 category = "main"
@@ -80,8 +80,8 @@ palett = [
     {file = "palett-0.0.4.tar.gz", hash = "sha256:3e69195db2f109519b5839dcb0cc11327677f77fc68f6ef45dcbda01d18f7b9c"},
 ]
 texting = [
-    {file = "texting-0.0.3-py3-none-any.whl", hash = "sha256:b4b32d43ae01897b9bdd04749ad581c3a27ac9a377c34610abf9f7e884e5748d"},
-    {file = "texting-0.0.3.tar.gz", hash = "sha256:84c39c5c980f09de11c98f7e3ebf5ce3439243678e8fdd6e1210156b9f1463b1"},
+    {file = "texting-0.0.6-py3-none-any.whl", hash = "sha256:ef994d1756f6ec1cfc4ad383d773239da57c20cb292b958fec9ca581c16de942"},
+    {file = "texting-0.0.6.tar.gz", hash = "sha256:51e56492af9e1c00d0daf8539535efc25d22ee5242f0161ce7143bb96aca463c"},
 ]
 veho = [
     {file = "veho-0.0.4-py3-none-any.whl", hash = "sha256:44049086198860b91c9f61668448892aea33a00ca569004662637a2459bad500"},

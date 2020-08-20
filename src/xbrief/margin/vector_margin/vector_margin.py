@@ -2,8 +2,8 @@ from dataclasses import dataclass
 
 from veho.vector import margin_mapper, margin_mutate
 
-from archive.utils import sizing
 from xbrief.margin.utils import marginal
+from xbrief.margin.vector_margin.sizing import sizing
 
 
 @dataclass

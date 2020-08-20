@@ -1,14 +1,12 @@
 from ject import oneself
 from palett import fluo_matrix
 from palett.presets import FRESH, PLANET
-from texting import COLF, COSP, ELLIP
+from texting import COLF, COSP, ELLIP, bracket as bracket_fn, liner
+from texting.enum.brackets import BRK
 from veho.enum.matrix_directions import ROWWISE
 from veho.matrix import size
 from veho.vector import mapper
 
-from xbrief.bracket import bracket as bracket_fn
-from xbrief.enum.brackets import BRK
-from xbrief.lines import liner
 from xbrief.margin import MatrixMargin
 from xbrief.padder.pad_matrix import pad_matrix
 

@@ -7,8 +7,8 @@ from texting import ELLIP
 from veho.vector import mutazip
 from veho.vector.length import length
 
-from xbrief.enum.brackets import BRK
-from xbrief.lines import liner
+from texting.enum.brackets import BRK
+from texting import liner
 from xbrief.margin import VectorMargin
 
 

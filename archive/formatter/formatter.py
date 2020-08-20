@@ -1,4 +1,5 @@
-from borel import Zu, stat
+from aryth import stat
+from aryth.math import int_exponent
 
 
 #
@@ -24,7 +25,7 @@ from borel import Zu, stat
 
 def max_len(numbers, digit=2, sep=True, is_pct=False):
     max_v, min_v = stat.bound(numbers)
-    int_exp_max, int_exp_min = Zu.int_exponent(max_v), Zu.int_exponent(min_v)
+    int_exp_max, int_exp_min = int_exponent(max_v), int_exponent(min_v)
     int_exp = max(int_exp_max, int_exp_min)
     if digit > 0:
         digit += 1
